@@ -30,8 +30,6 @@ class VideoViewModel : ViewModel() {
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4")
-
-
         )
         _videoList.value = videos
     }

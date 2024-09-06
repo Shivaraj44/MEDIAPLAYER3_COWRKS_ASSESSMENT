@@ -28,11 +28,9 @@ class MainActivity : AppCompatActivity() {
         recyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                 super.onScrolled(recyclerView, dx, dy)
-
                 // first visible item
                 val layoutManager = recyclerView.layoutManager as LinearLayoutManager
                 val firstVisiblePosition = layoutManager.findFirstVisibleItemPosition()
-
                 // Update the currently playing video
                 (recyclerView.adapter as VideoAdapter).updateCurrentPlayingPosition(firstVisiblePosition)
             }
