@@ -17,14 +17,21 @@ class VideoViewModel : ViewModel() {
     private fun loadVideos() {
         val videos = listOf(
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
-            VideoModel("https://filesamples.com/samples/video/mp4/sample_640x360.mp4"),
+            VideoModel("https://file-examples.com/storage/fef44df12666d835ba71c24/2017/04/file_example_MP4_480_1_5MG.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
-                    VideoModel("https://filesamples.com/samples/video/mp4/sample_640x360.mp4"),
+            VideoModel("https://file-examples.com/storage/fef44df12666d835ba71c24/2017/04/file_example_MP4_480_1_5MG.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
-                    VideoModel("https://filesamples.com/samples/video/mp4/sample_640x360.mp4"),
+            VideoModel("https://file-examples.com/storage/fef44df12666d835ba71c24/2017/04/file_example_MP4_480_1_5MG.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
-                    VideoModel("https://filesamples.com/samples/video/mp4/sample_640x360.mp4"),
+            VideoModel("https://file-examples.com/storage/fef44df12666d835ba71c24/2017/04/file_example_MP4_480_1_5MG.mp4"),
+            VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
+            VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
+            VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
+            VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
+            VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"),
             VideoModel("https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4")
+
+
         )
         _videoList.value = videos
     }
